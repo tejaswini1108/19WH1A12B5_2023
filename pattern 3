@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int i,j,n;
+	cin>>n;
+	for(i=1;i<=n;i++)
+	{
+		int k=65+(i-1);
+		for(j=1;j<=i;j++)
+		{
+			cout<<char(k)<<" ";
+		}
+		cout<<endl;
+	}
+	return 0;
+}
